@@ -1,0 +1,122 @@
+.toggle_icon , .mobaile_main_menu
+{
+ display: none;
+}
+@media screen and (max-width: 991.98px){
+  
+   .main_menu {
+      display: none;
+  }
+  
+  .toggle_icon
+  {
+      display: block;
+      border-radius: 100%;
+      padding: 3px 9px;
+      background-color: black;
+      color: white;
+  }
+  .mobaile_main_menu
+  {
+      display: block; 
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 11111111111;
+      background-color: white;
+      width: 100%;
+      padding: 15px 40px;
+  }
+  .mobaile_main_menu li{
+    padding: 8px 0px;
+    border-bottom: 1px solid gray;
+  }
+  .mobaile_main_menu li i{
+    padding-right: 8px;
+  }
+  .mobaile_main_menu li a
+  {
+      display: block;
+      padding: 8px;
+  }
+  /* ---------------------------section 2--------------------------------------- */
+ .tex{
+  padding-left: 15px;
+  
+ }
+ .tex h2{
+  font-size: 36px;
+ }
+ .tex .round{
+  left: 46px;
+ }
+ .image {
+  /* width: 520px;
+  height: 600px; */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 10px;
+ padding: 0;
+}
+.img_box {
+  position: relative;
+}
+
+.img_box .circle {
+  display: none;
+}
+.info p,
+.skill p,
+.items p {
+  max-width: 100%;
+  color: #7e7e7e;
+  font-size: 16px;
+}
+/* --------------section 3--------------------------- */
+.box p {
+  max-width: 100%;
+  color: #7e7e7e;
+  font-size: 16px;
+}
+/* -------------------section 4------------------------------ */
+.imgs_box img {
+  width: 100%;
+  height: auto;
+  object-fit:cover;
+  background-position: center;
+}
+.imgs_box .layer {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  right: 5px;
+  bottom: 9px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 2;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+}
+@media screen and (min-width: 991.99px)and (max-width:1200px){
+  .imgs_box .layer {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    right: 5px;
+    bottom: 9px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    z-index: 2;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+}
